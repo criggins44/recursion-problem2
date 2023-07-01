@@ -12,6 +12,8 @@ function sumArray(arr) {
   }
   else {
     return arr.pop() + sumArray(arr);
+//takes the last element of the array and adds it with the last element of the next iteration of the function
+
   }
 };
 
